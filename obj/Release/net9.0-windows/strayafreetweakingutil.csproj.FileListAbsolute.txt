@@ -1,0 +1,27 @@
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\bin\Release\net9.0-windows\Straya Free Tweaker.exe
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\bin\Release\net9.0-windows\Straya Free Tweaker.deps.json
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\bin\Release\net9.0-windows\Straya Free Tweaker.runtimeconfig.json
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\bin\Release\net9.0-windows\Straya Free Tweaker.dll
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\bin\Release\net9.0-windows\Straya Free Tweaker.pdb
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\bin\Release\net9.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\bin\Release\net9.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\bin\Release\net9.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\bin\Release\net9.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\obj\Release\net9.0-windows\strayafreetweakingutil.csproj.AssemblyReference.cache
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\obj\Release\net9.0-windows\Interop.IWshRuntimeLibrary.dll
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\obj\Release\net9.0-windows\strayafreetweakingutil.csproj.ResolveComReference.cache
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\obj\Release\net9.0-windows\strayafreetweakingutil.App.Properties.Resources.resources
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\obj\Release\net9.0-windows\strayafreetweakingutil.Main.resources
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\obj\Release\net9.0-windows\strayafreetweakingutil.csproj.GenerateResource.cache
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\obj\Release\net9.0-windows\strayafreetweakingutil.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\obj\Release\net9.0-windows\strayafreetweakingutil.AssemblyInfoInputs.cache
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\obj\Release\net9.0-windows\strayafreetweakingutil.AssemblyInfo.cs
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\obj\Release\net9.0-windows\strayafreetweakingutil.csproj.CoreCompileInputs.cache
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\obj\Release\net9.0-windows\strayafreetweakingutil.csproj.Fody.CopyLocal.cache
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\obj\Release\net9.0-windows\strayafreetweakingutil.csproj.Fody.RuntimeCopyLocal.cache
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\obj\Release\net9.0-windows\strayafr.F8BD1639.Up2Date
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\obj\Release\net9.0-windows\Straya Free Tweaker.dll
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\obj\Release\net9.0-windows\refint\Straya Free Tweaker.dll
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\obj\Release\net9.0-windows\Straya Free Tweaker.pdb
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\obj\Release\net9.0-windows\strayafreetweakingutil.genruntimeconfig.cache
+C:\Users\honti\Desktop\repos\strayafreetweakingutil\obj\Release\net9.0-windows\ref\Straya Free Tweaker.dll

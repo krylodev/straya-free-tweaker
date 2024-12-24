@@ -1,0 +1,720 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0-windows7.0": {
+      "Autoupdater.NET.Official/1.9.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Web.WebView2": "1.0.2592.51"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/AutoUpdater.NET.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/AutoUpdater.NET.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ],
+        "resource": {
+          "lib/net8.0-windows7.0/ar/AutoUpdater.NET.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/net8.0-windows7.0/cs/AutoUpdater.NET.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0-windows7.0/da/AutoUpdater.NET.resources.dll": {
+            "locale": "da"
+          },
+          "lib/net8.0-windows7.0/de/AutoUpdater.NET.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0-windows7.0/es/AutoUpdater.NET.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0-windows7.0/fr/AutoUpdater.NET.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0-windows7.0/it/AutoUpdater.NET.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0-windows7.0/ja-JP/AutoUpdater.NET.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net8.0-windows7.0/ko/AutoUpdater.NET.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0-windows7.0/lv/AutoUpdater.NET.resources.dll": {
+            "locale": "lv"
+          },
+          "lib/net8.0-windows7.0/nl/AutoUpdater.NET.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net8.0-windows7.0/pl/AutoUpdater.NET.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0-windows7.0/pt-BR/AutoUpdater.NET.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0-windows7.0/pt/AutoUpdater.NET.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net8.0-windows7.0/ru/AutoUpdater.NET.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0-windows7.0/sk/AutoUpdater.NET.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net8.0-windows7.0/sv/AutoUpdater.NET.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net8.0-windows7.0/th/AutoUpdater.NET.resources.dll": {
+            "locale": "th"
+          },
+          "lib/net8.0-windows7.0/tr/AutoUpdater.NET.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0-windows7.0/zh-TW/AutoUpdater.NET.resources.dll": {
+            "locale": "zh-TW"
+          },
+          "lib/net8.0-windows7.0/zh/AutoUpdater.NET.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "Costura.Fody/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.8.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Costura.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "build/Costura.Fody.props": {},
+          "build/Costura.Fody.targets": {}
+        }
+      },
+      "CuoreUI.Winforms/2024.12.16": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/CuoreUI.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/CuoreUI.dll": {}
+        }
+      },
+      "Fody/6.8.2": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
+      "Guna.UI2.WinForms/2.0.4.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Management": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0-windows7.0/Guna.UI2.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0-windows7.0/Guna.UI2.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "Microsoft.Web.WebView2/1.0.2592.51": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll": {
+            "related": ".xml"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/WebView2Loader.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/WebView2Loader.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "System.CodeDom/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Management/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/System.Management.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Autoupdater.NET.Official/1.9.2": {
+      "sha512": "wVB0YMk5Dyc2UMUb46t5TVvzipfgkNHtuKh04wp14k/32nY7wMTz8gSMgiaX9WAHesW60K6J8uGz5G8gyGkEPQ==",
+      "type": "package",
+      "path": "autoupdater.net.official/1.9.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autoupdater.net.official.1.9.2.nupkg.sha512",
+        "autoupdater.net.official.nuspec",
+        "docs/README.md",
+        "lib/net462/AutoUpdater.NET.dll",
+        "lib/net462/AutoUpdater.NET.pdb",
+        "lib/net462/AutoUpdater.NET.xml",
+        "lib/net462/ar/AutoUpdater.NET.resources.dll",
+        "lib/net462/cs/AutoUpdater.NET.resources.dll",
+        "lib/net462/da/AutoUpdater.NET.resources.dll",
+        "lib/net462/de/AutoUpdater.NET.resources.dll",
+        "lib/net462/es/AutoUpdater.NET.resources.dll",
+        "lib/net462/fr/AutoUpdater.NET.resources.dll",
+        "lib/net462/it/AutoUpdater.NET.resources.dll",
+        "lib/net462/ja-JP/AutoUpdater.NET.resources.dll",
+        "lib/net462/ko/AutoUpdater.NET.resources.dll",
+        "lib/net462/lv/AutoUpdater.NET.resources.dll",
+        "lib/net462/nl/AutoUpdater.NET.resources.dll",
+        "lib/net462/pl/AutoUpdater.NET.resources.dll",
+        "lib/net462/pt-BR/AutoUpdater.NET.resources.dll",
+        "lib/net462/pt/AutoUpdater.NET.resources.dll",
+        "lib/net462/ru/AutoUpdater.NET.resources.dll",
+        "lib/net462/sk/AutoUpdater.NET.resources.dll",
+        "lib/net462/sv/AutoUpdater.NET.resources.dll",
+        "lib/net462/th/AutoUpdater.NET.resources.dll",
+        "lib/net462/tr/AutoUpdater.NET.resources.dll",
+        "lib/net462/zh-TW/AutoUpdater.NET.resources.dll",
+        "lib/net462/zh/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/AutoUpdater.NET.dll",
+        "lib/net5.0-windows7.0/AutoUpdater.NET.pdb",
+        "lib/net5.0-windows7.0/AutoUpdater.NET.xml",
+        "lib/net5.0-windows7.0/ar/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/cs/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/da/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/de/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/es/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/fr/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/it/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/ja-JP/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/ko/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/lv/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/nl/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/pl/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/pt-BR/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/pt/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/ru/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/sk/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/sv/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/th/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/tr/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/zh-TW/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows7.0/zh/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/AutoUpdater.NET.dll",
+        "lib/net6.0-windows7.0/AutoUpdater.NET.pdb",
+        "lib/net6.0-windows7.0/AutoUpdater.NET.xml",
+        "lib/net6.0-windows7.0/ar/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/cs/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/da/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/de/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/es/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/fr/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/it/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/ja-JP/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/ko/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/lv/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/nl/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/pl/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/pt-BR/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/pt/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/ru/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/sk/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/sv/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/th/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/tr/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/zh-TW/AutoUpdater.NET.resources.dll",
+        "lib/net6.0-windows7.0/zh/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/AutoUpdater.NET.dll",
+        "lib/net7.0-windows7.0/AutoUpdater.NET.pdb",
+        "lib/net7.0-windows7.0/AutoUpdater.NET.xml",
+        "lib/net7.0-windows7.0/ar/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/cs/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/da/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/de/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/es/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/fr/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/it/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/ja-JP/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/ko/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/lv/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/nl/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/pl/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/pt-BR/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/pt/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/ru/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/sk/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/sv/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/th/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/tr/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/zh-TW/AutoUpdater.NET.resources.dll",
+        "lib/net7.0-windows7.0/zh/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/AutoUpdater.NET.dll",
+        "lib/net8.0-windows7.0/AutoUpdater.NET.pdb",
+        "lib/net8.0-windows7.0/AutoUpdater.NET.xml",
+        "lib/net8.0-windows7.0/ar/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/cs/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/da/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/de/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/es/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/fr/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/it/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/ja-JP/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/ko/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/lv/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/nl/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/pl/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/pt-BR/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/pt/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/ru/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/sk/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/sv/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/th/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/tr/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/zh-TW/AutoUpdater.NET.resources.dll",
+        "lib/net8.0-windows7.0/zh/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/AutoUpdater.NET.dll",
+        "lib/netcoreapp3.1/AutoUpdater.NET.pdb",
+        "lib/netcoreapp3.1/AutoUpdater.NET.xml",
+        "lib/netcoreapp3.1/ar/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/cs/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/da/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/de/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/es/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/fr/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/it/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/ja-JP/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/ko/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/lv/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/nl/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/pl/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/pt-BR/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/pt/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/ru/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/sk/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/sv/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/th/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/tr/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/zh-TW/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/zh/AutoUpdater.NET.resources.dll"
+      ]
+    },
+    "Costura.Fody/6.0.0": {
+      "sha512": "3Uriu9GJABMivG0wXMJs6NQ7FNE3pylir1gZEBAWDvpii3cnrmxXnOG44MMDuIVOIk/Xhef7WZFsaCNV+py9qA==",
+      "type": "package",
+      "path": "costura.fody/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Costura.Fody.props",
+        "build/Costura.Fody.targets",
+        "costura.fody.6.0.0.nupkg.sha512",
+        "costura.fody.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Costura.dll",
+        "lib/netstandard2.0/Costura.pdb",
+        "lib/netstandard2.0/Costura.xml",
+        "netclassicweaver/Costura.Fody.dll",
+        "netclassicweaver/Costura.Fody.xcf",
+        "netstandardweaver/Costura.Fody.dll",
+        "netstandardweaver/Costura.Fody.xcf"
+      ]
+    },
+    "CuoreUI.Winforms/2024.12.16": {
+      "sha512": "6NyzYjiovCpiKMzjBDWUJByPlwGG6PD8DtIDdb1aPNCHEhCPBE1NVBejKc+9y1tUP+igqoBnwXNEONtJRuA4cA==",
+      "type": "package",
+      "path": "cuoreui.winforms/2024.12.16",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cuoreui.winforms.2024.12.16.nupkg.sha512",
+        "cuoreui.winforms.nuspec",
+        "icon.png",
+        "lib/net8.0/CuoreUI.dll",
+        "lib/netstandard2.0/CuoreUI.dll"
+      ]
+    },
+    "Fody/6.8.2": {
+      "sha512": "sjGHrtGS1+kcrv99WXCvujOFBTQp4zCH3ZC9wo2LAtVaJkuLpHghQx3y4k1Q8ZKuDAbEw+HE6ZjPUJQK3ejepQ==",
+      "type": "package",
+      "path": "fody/6.8.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "build/Fody.targets",
+        "fody.6.8.2.nupkg.sha512",
+        "fody.nuspec",
+        "netclassictask/Fody.dll",
+        "netclassictask/FodyCommon.dll",
+        "netclassictask/FodyHelpers.dll",
+        "netclassictask/FodyIsolated.dll",
+        "netclassictask/Mono.Cecil.Pdb.dll",
+        "netclassictask/Mono.Cecil.Pdb.pdb",
+        "netclassictask/Mono.Cecil.Rocks.dll",
+        "netclassictask/Mono.Cecil.Rocks.pdb",
+        "netclassictask/Mono.Cecil.dll",
+        "netclassictask/Mono.Cecil.pdb",
+        "netstandardtask/Fody.dll",
+        "netstandardtask/FodyCommon.dll",
+        "netstandardtask/FodyHelpers.dll",
+        "netstandardtask/FodyIsolated.dll",
+        "netstandardtask/Mono.Cecil.Pdb.dll",
+        "netstandardtask/Mono.Cecil.Pdb.pdb",
+        "netstandardtask/Mono.Cecil.Rocks.dll",
+        "netstandardtask/Mono.Cecil.Rocks.pdb",
+        "netstandardtask/Mono.Cecil.dll",
+        "netstandardtask/Mono.Cecil.pdb",
+        "readme.md"
+      ]
+    },
+    "Guna.UI2.WinForms/2.0.4.6": {
+      "sha512": "NYzSJp7e47Cz3NgGCHvzadash8ycmxxUnpLg4Rr/MSYG9WDw0HOoTI4SkbDW+HbACrf6tsWYCuzWkgvjuM/O6w==",
+      "type": "package",
+      "path": "guna.ui2.winforms/2.0.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+        "guna.ui2.winforms.nuspec",
+        "icon.png",
+        "lib/net40/Guna.UI2.dll",
+        "lib/net45/Guna.UI2.dll",
+        "lib/net461/Guna.UI2.dll",
+        "lib/net472/Guna.UI2.dll",
+        "lib/net48/Guna.UI2.dll",
+        "lib/net6.0-windows7.0/Guna.UI2.dll",
+        "lib/net7.0-windows7.0/Guna.UI2.dll",
+        "lib/netcoreapp3.1/Guna.UI2.dll"
+      ]
+    },
+    "Microsoft.Web.WebView2/1.0.2592.51": {
+      "sha512": "AC9aWCthS2JvddYA1jl4dFpLBW3GsLRInhp5dkcBzaFXsRehfoUN9olIUsrH41eNaNYd7z9NRvmy81aUA5aD1g==",
+      "type": "package",
+      "path": "microsoft.web.webview2/1.0.2592.51",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "NOTICE.txt",
+        "WebView2.idl",
+        "WebView2.tlb",
+        "build/Common.targets",
+        "build/Microsoft.Web.WebView2.targets",
+        "build/WebView2Rules.Project.xml",
+        "build/native/Microsoft.Web.WebView2.targets",
+        "build/native/arm64/WebView2Loader.dll",
+        "build/native/arm64/WebView2Loader.dll.lib",
+        "build/native/arm64/WebView2LoaderStatic.lib",
+        "build/native/include-winrt/WebView2Interop.h",
+        "build/native/include-winrt/WebView2Interop.idl",
+        "build/native/include-winrt/WebView2Interop.tlb",
+        "build/native/include/WebView2.h",
+        "build/native/include/WebView2EnvironmentOptions.h",
+        "build/native/x64/WebView2Loader.dll",
+        "build/native/x64/WebView2Loader.dll.lib",
+        "build/native/x64/WebView2LoaderStatic.lib",
+        "build/native/x86/WebView2Loader.dll",
+        "build/native/x86/WebView2Loader.dll.lib",
+        "build/native/x86/WebView2LoaderStatic.lib",
+        "build/wv2winrt.targets",
+        "lib/Microsoft.Web.WebView2.Core.winmd",
+        "lib/net462/Microsoft.Web.WebView2.Core.dll",
+        "lib/net462/Microsoft.Web.WebView2.Core.xml",
+        "lib/net462/Microsoft.Web.WebView2.WinForms.dll",
+        "lib/net462/Microsoft.Web.WebView2.WinForms.xml",
+        "lib/net462/Microsoft.Web.WebView2.Wpf.dll",
+        "lib/net462/Microsoft.Web.WebView2.Wpf.xml",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.xml",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.xml",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.xml",
+        "microsoft.web.webview2.1.0.2592.51.nupkg.sha512",
+        "microsoft.web.webview2.nuspec",
+        "runtimes/win-arm64/native/WebView2Loader.dll",
+        "runtimes/win-arm64/native_uap/Microsoft.Web.WebView2.Core.dll",
+        "runtimes/win-x64/native/WebView2Loader.dll",
+        "runtimes/win-x64/native_uap/Microsoft.Web.WebView2.Core.dll",
+        "runtimes/win-x86/native/WebView2Loader.dll",
+        "runtimes/win-x86/native_uap/Microsoft.Web.WebView2.Core.dll",
+        "tools/VisualStudioToolsManifest.xml",
+        "tools/wv2winrt/Antlr3.Runtime.dll",
+        "tools/wv2winrt/Antlr4.StringTemplate.dll",
+        "tools/wv2winrt/System.Buffers.dll",
+        "tools/wv2winrt/System.CommandLine.DragonFruit.dll",
+        "tools/wv2winrt/System.CommandLine.Rendering.dll",
+        "tools/wv2winrt/System.CommandLine.dll",
+        "tools/wv2winrt/System.Memory.dll",
+        "tools/wv2winrt/System.Numerics.Vectors.dll",
+        "tools/wv2winrt/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/wv2winrt/codegen_util.dll",
+        "tools/wv2winrt/concrt140_app.dll",
+        "tools/wv2winrt/cs/System.CommandLine.resources.dll",
+        "tools/wv2winrt/de/System.CommandLine.resources.dll",
+        "tools/wv2winrt/es/System.CommandLine.resources.dll",
+        "tools/wv2winrt/fr/System.CommandLine.resources.dll",
+        "tools/wv2winrt/it/System.CommandLine.resources.dll",
+        "tools/wv2winrt/ja/System.CommandLine.resources.dll",
+        "tools/wv2winrt/ko/System.CommandLine.resources.dll",
+        "tools/wv2winrt/msvcp140_1_app.dll",
+        "tools/wv2winrt/msvcp140_2_app.dll",
+        "tools/wv2winrt/msvcp140_app.dll",
+        "tools/wv2winrt/pl/System.CommandLine.resources.dll",
+        "tools/wv2winrt/pt-BR/System.CommandLine.resources.dll",
+        "tools/wv2winrt/ru/System.CommandLine.resources.dll",
+        "tools/wv2winrt/tr/System.CommandLine.resources.dll",
+        "tools/wv2winrt/type_hierarchy.dll",
+        "tools/wv2winrt/vcamp140_app.dll",
+        "tools/wv2winrt/vccorlib140_app.dll",
+        "tools/wv2winrt/vcomp140_app.dll",
+        "tools/wv2winrt/vcruntime140_app.dll",
+        "tools/wv2winrt/winrt_winmd.dll",
+        "tools/wv2winrt/winrt_winmd.winmd",
+        "tools/wv2winrt/wv2winrt.exe",
+        "tools/wv2winrt/wv2winrt.exe.config",
+        "tools/wv2winrt/wv2winrt.xml",
+        "tools/wv2winrt/zh-Hans/System.CommandLine.resources.dll",
+        "tools/wv2winrt/zh-Hant/System.CommandLine.resources.dll"
+      ]
+    },
+    "System.CodeDom/7.0.0": {
+      "sha512": "GLltyqEsE5/3IE+zYRP5sNa1l44qKl9v+bfdMcwg+M9qnQf47wK3H0SUR/T+3N4JEQXF3vV4CSuuo0rsg+nq2A==",
+      "type": "package",
+      "path": "system.codedom/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.CodeDom.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
+        "lib/net462/System.CodeDom.dll",
+        "lib/net462/System.CodeDom.xml",
+        "lib/net6.0/System.CodeDom.dll",
+        "lib/net6.0/System.CodeDom.xml",
+        "lib/net7.0/System.CodeDom.dll",
+        "lib/net7.0/System.CodeDom.xml",
+        "lib/netstandard2.0/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.xml",
+        "system.codedom.7.0.0.nupkg.sha512",
+        "system.codedom.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Management/7.0.0": {
+      "sha512": "A4jed4QUviDOm7fJNKAJObEAEkEUXmkGL/w0iyCYTzrl1rezTj8LGFHfsVst4Vb9JwFcTpboiDrvdST48avBpw==",
+      "type": "package",
+      "path": "system.management/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Management.targets",
+        "lib/net462/_._",
+        "lib/net6.0/System.Management.dll",
+        "lib/net6.0/System.Management.xml",
+        "lib/net7.0/System.Management.dll",
+        "lib/net7.0/System.Management.xml",
+        "lib/netstandard2.0/System.Management.dll",
+        "lib/netstandard2.0/System.Management.xml",
+        "runtimes/win/lib/net6.0/System.Management.dll",
+        "runtimes/win/lib/net6.0/System.Management.xml",
+        "runtimes/win/lib/net7.0/System.Management.dll",
+        "runtimes/win/lib/net7.0/System.Management.xml",
+        "system.management.7.0.0.nupkg.sha512",
+        "system.management.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0-windows7.0": [
+      "Autoupdater.NET.Official >= 1.9.2",
+      "Costura.Fody >= 6.0.0",
+      "CuoreUI.Winforms >= 2024.12.16",
+      "Guna.UI2.WinForms >= 2.0.4.6"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\honti\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\honti\\Desktop\\repos\\strayafreetweakingutil\\strayafreetweakingutil.csproj",
+      "projectName": "Straya Free Tweaker",
+      "projectPath": "C:\\Users\\honti\\Desktop\\repos\\strayafreetweakingutil\\strayafreetweakingutil.csproj",
+      "packagesPath": "C:\\Users\\honti\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\honti\\Desktop\\repos\\strayafreetweakingutil\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\honti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0-windows7.0": {
+        "targetAlias": "net9.0-windows",
+        "dependencies": {
+          "Autoupdater.NET.Official": {
+            "target": "Package",
+            "version": "[1.9.2, )"
+          },
+          "Costura.Fody": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
+          "CuoreUI.Winforms": {
+            "target": "Package",
+            "version": "[2024.12.16, )"
+          },
+          "Guna.UI2.WinForms": {
+            "target": "Package",
+            "version": "[2.0.4.6, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
